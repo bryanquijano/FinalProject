@@ -4,8 +4,12 @@ import useAuth from "./composable/useAuth";
 // Importing the pages
 import Index from "./pages/index.vue";
 import About from "./pages/about.vue";
+import Members from "./pages/members.vue";
+import Music from "./pages/music.vue";
+import Shop from "./pages/shop.vue";
 import Login from "./pages/login.vue";
-import Secret from "./pages/secret.vue";
+import Register from "./pages/register.vue";
+import Fanclub from "./pages/fanclub.vue";
 import NotFound from "./pages/404.vue";
 
 const { isAuthenticated } = useAuth();
@@ -23,18 +27,38 @@ const routes = [
     component: About,
   },
   {
+    path: "/music",
+    name: "Music",
+    component: Music,
+  },
+  {
+    path: "/shop",
+    name: "Shop",
+    component: Shop,
+  },
+  {
+    path: "/members",
+    name: "Members",
+    component: Members,
+  },
+  {
     path: "/login",
     name: "Login",
     component: Login,
   },
   {
-    path: "/secret",
-    name: "Secret",
-    component: Secret,
+    path: "/register",
+    name: "Register",
+    component: Register,
+  },
+  {
+    path: "/fanclub",
+    name: "Fanclub",
+    component: Fanclub,
     beforeEnter: (to, from, next) => {
       // If user is not authenticated, redirect them to login page
       if (!isAuthenticated.value) {
-        next("/login");
+        next("/register");
       }
       // If user is authenticated, let them access secret page
       next();

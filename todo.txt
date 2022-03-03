@@ -1,0 +1,26 @@
+Home page
+The default page will have the title of the website, a small description of what the website is for.
+
+Login page
+You can freely browse the website but some content will be hidden unless you’re logged in.
+
+Register page
+If you don’t have an account, you’ll have to register to the website, which will be done on this page.
+
+Discography Page
+This page will display the group’s entire discography of music
+
+Album page
+You’ll be able to click on each album and see the tracks that are in that album, as well as the music videos that were released for that album.
+
+Group page
+Similar to the discography page where you’ll see cards of each member.
+
+Profile page
+You’ll be able to click on each member card to get more information about them. But I might make these into modals that popup when you click on the cards instead.
+
+Store page
+Have various merchandise from them that you can add to a cart. 
+
+Cart page (optional)
+If I’m able to, let the user see the cart and what items are inside it.
