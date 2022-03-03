@@ -5,7 +5,7 @@ import Footer from "./components/Footer.vue";
 
 <template>
   <Nav />
-  <div class="container mx-auto">
+  <div class="container mx-auto mb-8">
     <router-view />
   </div>
   <Footer />
