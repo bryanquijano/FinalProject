@@ -39,7 +39,7 @@ const loggingOut = () => {
           </router-link>
           <router-link v-if="!isAuthenticated" :to="{ name: 'Register' }">
             <li
-              class="py-2 px-6 mt-6 hover:cursor-pointer text-white hover:text-gray-300 tracking-tight font-bold bg-red-500 rounded-full hover:bg-red-800"
+              class="py-2 px-6 mt-6 text-white hover:text-gray-300 hover:cursor-pointer tracking-tight font-bold bg-red-500 rounded-full hover:bg-red-800"
             >
               REGISTER
             </li>

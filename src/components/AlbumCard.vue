@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4">
-    <router-link to="/album/11">
+    <router-link to="/album">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
