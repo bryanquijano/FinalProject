@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4">
-    <router-link to="/album">
+    <router-link :to="{ name: 'Album' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -17,5 +17,3 @@
     </router-link>
   </div>
 </template>
-
-<script setup></script>
