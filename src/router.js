@@ -6,7 +6,7 @@ import Index from "./pages/index.vue";
 import About from "./pages/about.vue";
 import Members from "./pages/members.vue";
 import Music from "./pages/music.vue";
-import Album from "./pages/album.vue";
+// import Album from "./pages/album.vue";
 import Shop from "./pages/shop.vue";
 import Login from "./pages/login.vue";
 import Register from "./pages/register.vue";
@@ -32,11 +32,11 @@ const routes = [
     name: "Music",
     component: Music,
   },
-  {
-    path: "/album",
-    name: "Album",
-    component: Album,
-  },
+  // {
+  //   path: "/album",
+  //   name: "Album",
+  //   component: Album,
+  // },
   {
     path: "/shop",
     name: "Shop",
