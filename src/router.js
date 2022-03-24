@@ -6,7 +6,7 @@ import Index from "./pages/index.vue";
 import About from "./pages/about.vue";
 import Members from "./pages/members.vue";
 import Music from "./pages/music.vue";
-import Album from "./pages/album.vue";
+// import Album from "./pages/album.vue";
 import Profile from "./pages/profile.vue";
 import Shop from "./pages/shop.vue";
 import Login from "./pages/login.vue";
@@ -39,31 +39,71 @@ const routes = [
     path: "/about",
     name: "About",
     component: About,
+    beforeEnter: (to, from, next) => {
+      // If user is not authenticated, redirect them to login page
+      if (!isAuthenticated.value) {
+        next("/register");
+      }
+      // If user is authenticated, let them access secret page
+      next();
+    },
   },
   {
     path: "/music",
     name: "Music",
     component: Music,
+    beforeEnter: (to, from, next) => {
+      // If user is not authenticated, redirect them to login page
+      if (!isAuthenticated.value) {
+        next("/register");
+      }
+      // If user is authenticated, let them access secret page
+      next();
+    },
   },
-  {
-    path: "/album",
-    name: "Album",
-    component: Album,
-  },
+  // {
+  //   path: "/album",
+  //   name: "Album",
+  //   component: Album,
+  // },
   {
     path: "/shop",
     name: "Shop",
     component: Shop,
+    beforeEnter: (to, from, next) => {
+      // If user is not authenticated, redirect them to login page
+      if (!isAuthenticated.value) {
+        next("/register");
+      }
+      // If user is authenticated, let them access secret page
+      next();
+    },
   },
   {
     path: "/members",
     name: "Members",
     component: Members,
+    beforeEnter: (to, from, next) => {
+      // If user is not authenticated, redirect them to login page
+      if (!isAuthenticated.value) {
+        next("/register");
+      }
+      // If user is authenticated, let them access secret page
+      next();
+    },
   },
   {
     path: "/profile",
     name: "Profile",
     component: Profile,
+    beforeEnter: (to, from, next) => {
+      // If user is not authenticated, redirect them to login page
+      if (!isAuthenticated.value) {
+        next("/register");
+      }
+      // If user is authenticated, let them access secret page
+      next();
+    },
   },
   {
     path: "/login",

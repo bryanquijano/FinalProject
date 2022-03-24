@@ -16,7 +16,7 @@
         <h4 class="text-gray-400">2020</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -34,7 +34,7 @@
   </div>
   <div class="mt-10 font-bold text-4xl mb-4">Singles & EPs</div>
   <div class="grid grid-cols-6 gap-8">
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -47,7 +47,7 @@
         <h4 class="text-gray-400">2017</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -62,7 +62,7 @@
         <h4 class="text-gray-400">2017</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -75,7 +75,7 @@
         <h4 class="text-gray-400">2017</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -88,7 +88,7 @@
         <h4 class="text-gray-400">2018</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -101,7 +101,7 @@
         <h4 class="text-gray-400">2018</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -114,7 +114,7 @@
         <h4 class="text-gray-400">2018</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -127,7 +127,7 @@
         <h4 class="text-gray-400">2018</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -140,7 +140,7 @@
         <h4 class="text-gray-400">2019</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -155,7 +155,7 @@
         <h4 class="text-gray-400">2019</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -168,7 +168,7 @@
         <h4 class="text-gray-400">2019</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -181,7 +181,7 @@
         <h4 class="text-gray-400">2019</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -194,7 +194,7 @@
         <h4 class="text-gray-400">2020</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -207,7 +207,7 @@
         <h4 class="text-gray-400">2020</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -222,7 +222,7 @@
         <h4 class="text-gray-400">2020</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -237,7 +237,7 @@
         <h4 class="text-gray-400">2021</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
@@ -250,7 +250,7 @@
         <h4 class="text-gray-400">2021</h4>
       </div>
     </router-link>
-    <router-link :to="{ name: 'Album' }">
+    <router-link :to="{ name: 'Album01' }">
       <div
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
