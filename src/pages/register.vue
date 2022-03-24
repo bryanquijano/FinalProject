@@ -1,3 +1,64 @@
+<script setup>
+import { onBeforeMount, ref } from "vue";
+import { useRouter } from "vue-router";
+import { useForm, useField } from "vee-validate";
+import * as yup from "yup";
+
+// Form validation
+const schema = yup.object({
+  username: yup.string().required().email().label("Email "),
+  password: yup.string().required().min(8).label("Password"),
+});
+
+useForm({
+  validationSchema: schema,
+});
+
+const { value: username, errorMessage: emailError } = useField("username");
+const { value: password, errorMessage: passwordError } = useField("password");
+
+import useAuth from "../composable/useAuth";
+import useError from "../composable/useError";
+
+const { isAuthenticated, login, signup, googleLogin } = useAuth();
+
+// const username = ref("");
+// const password = ref("");
+
+const router = useRouter();
+
+const logginIn = async () => {
+  await login(username.value, password.value);
+  goToHome();
+};
+
+const signingUp = async () => {
+  await signup(username.value, password.value);
+  goToHome();
+};
+
+const google = async () => {
+  await googleLogin();
+  goToHome();
+};
+
+const goToHome = () => {
+  // If user is authenticated, send them to the home page
+  if (isAuthenticated.value) {
+    router.push("/");
+  } else {
+    setError("Invalid username or password");
+    start();
+  }
+};
+
+const { error, setError } = useError();
+
+import { useTimeout, promiseTimeout } from "@vueuse/core";
+
+const { ready, start } = useTimeout(3000, { controls: true });
+</script>
+
 <template>
   <div class="h-full w-full py-8 px-4">
     <div class="flex flex-col items-center justify-center">
@@ -8,19 +69,27 @@
           tabindex="0"
           class="focus:outline-none text-2xl font-extrabold leading-6 text-white"
         >
-          Login to your account
+          Create an account
         </p>
         <p
           tabindex="0"
           class="focus:outline-none text-sm mt-4 font-medium leading-none text-gray-400"
         >
-          Dont have account?
-          <a
-            href="javascript:void(0)"
-            class="hover:text-gray-500 focus:text-gray-500 focus:outline-none focus:underline hover:underline text-sm font-medium leading-none text-white cursor-pointer"
-          >
-            Sign up here</a
-          >
+          Already have an account?
+          <router-link v-if="!isAuthenticated" :to="{ name: 'Login' }">
+            <span
+              class="text-sm mt-4 font-medium leading-none text-white hover:text-gray-300"
+            >
+              Sign in here
+            </span>
+          </router-link>
+          <!-- <router-link v-if="!isAuthenticated" :to="{ name: 'Login' }">
+            <li
+              class="py-8 px-4 hover:cursor-pointer text-white hover:text-gray-300 tracking-tight font-bold"
+            >
+              LOG IN
+            </li>
+          </router-link> -->
         </p>
         <button
           aria-label="Continue with google"
@@ -55,7 +124,7 @@
             Continue with Google
           </p>
         </button>
-        <button
+        <!-- <button
           aria-label="Continue with github"
           role="button"
           class="focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 border rounded-lg border-gray-700 flex items-center w-full mt-4 bg-white hover:opacity-75"
@@ -98,7 +167,7 @@
           <p class="text-base font-medium ml-2 text-black">
             Continue with Twitter
           </p>
-        </button>
+        </button> -->
         <div class="w-full flex items-center justify-between py-5">
           <hr class="w-full bg-gray-400" />
           <p class="text-base font-medium leading-4 px-2.5 text-gray-400">OR</p>
@@ -109,19 +178,24 @@
             Email
           </label>
           <input
-            aria-labelledby="email"
-            type="email"
+            name="username"
+            type="text"
+            placeholder="Username"
+            v-model="username"
             class="bg-gray-200 border rounded text-xs font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2"
           />
         </div>
+        <span class="text-red-500 text-center text-xs">{{ emailError }}</span>
         <div class="mt-6 w-full">
           <label for="pass" class="text-sm font-medium leading-none text-white">
             Password
           </label>
           <div class="relative flex items-center justify-center">
             <input
-              id="pass"
+              name="password"
               type="password"
+              placeholder="Password"
+              v-model="password"
               class="bg-gray-200 border rounded text-xs font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2"
             />
             <div class="absolute right-0 mt-2 mr-3 cursor-pointer">
@@ -139,9 +213,13 @@
               </svg>
             </div>
           </div>
+          <span class="text-red-500 text-center text-xs">{{
+            passwordError
+          }}</span>
         </div>
         <div class="mt-8">
           <button
+            @click="signingUp"
             role="button"
             class="focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 leading-none text-white focus:outline-none bg-blue-700 rounded-full hover:bg-blue-600 py-4 w-full font-bold"
           >
@@ -150,7 +228,11 @@
         </div>
       </div>
     </div>
+    <div
+      v-if="!ready && error"
+      class="bg-red-300 w-1/4 absolute bottom-2 right-2 rounded-lg p-4 text-center text-red-800"
+    >
+      {{ error }}
+    </div>
   </div>
 </template>
-
-<script setup></script>

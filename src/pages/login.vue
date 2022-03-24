@@ -60,11 +60,12 @@ const { ready, start } = useTimeout(3000, { controls: true });
 </script>
 
 <template>
+  <!-- //////////////////////////////////////////////////////// -->
   <div
     class="flex flex-col justify-center items-center min-h-screen-nonav bg-inherit"
   >
     <h2 class="font-extralight text-6xl tracking-tighter text-white pb-12">
-      Login or Sign Up
+      Login Page
     </h2>
     <div
       class="flex shadow-2xl rounded-lg justify-center items-center bg-gray-300 overflow-hidden px-4"
@@ -106,17 +107,30 @@ const { ready, start } = useTimeout(3000, { controls: true });
           <button
             type="submit"
             @submit.prevent="logginIn"
-            class="bg-green-600 text-green-100 py-4 rounded-lg w-1/2 hover:bg-green-800 hover:text-white"
+            class="bg-green-600 text-green-100 py-4 rounded-full w-full hover:bg-green-800 hover:text-white"
           >
             Login
           </button>
-          <button
+          <!-- <button
             @click="signingUp"
             class="border-2 border-gray-500 text-blue-800 py-4 rounded-lg w-1/2 hover:bg-gray-400 hover:text-white hover:border-gray-900"
           >
             Sign Up
-          </button>
+          </button> -->
         </div>
+        <p
+          tabindex="0"
+          class="focus:outline-none text-sm mt-4 font-medium leading-none text-black"
+        >
+          Don't have an account?
+          <router-link v-if="!isAuthenticated" :to="{ name: 'Register' }">
+            <span
+              class="text-sm mt-4 font-medium leading-none text-gray-800 hover:text-gray-600"
+            >
+              Register here
+            </span>
+          </router-link>
+        </p>
       </form>
     </div>
     <div
