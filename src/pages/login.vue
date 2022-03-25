@@ -65,12 +65,12 @@ const { ready, start } = useTimeout(3000, { controls: true });
     class="flex flex-col justify-center items-center min-h-screen-nonav bg-inherit"
   >
     <h2 class="font-extralight text-6xl tracking-tighter text-white pb-12">
-      Login Page
+      Login to InSomnia'sDream!
     </h2>
     <div
       class="flex shadow-2xl rounded-lg justify-center items-center bg-gray-300 overflow-hidden px-4"
     >
-      <img class="h-64" src="../assets/bglogin.png" alt="Hello GB" />
+      <img class="h-64" src="../assets/group2.jpg" alt="Hello GB" />
       <form @submit.prevent="logginIn" class="flex flex-col space-y-4 pl-8 p-4">
         <button
           @click="google"
