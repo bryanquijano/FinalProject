@@ -3,17 +3,17 @@
     <div class="flex container mx-auto mt-20">
       <div class="w-1/4">
         <img
-          src="../../assets/albumCovers/alb2.png"
+          src="../../assets/albumCovers/alb16.png"
           alt=""
           class="w-72 h-72 bg-gray-400 rounded-xl"
         />
       </div>
       <div class="w-3/4 mt-8">
-        <h2 class="text-7xl font-bold">The Beginning of The End</h2>
+        <h2 class="text-7xl font-bold">[Dystopia : Lose Myself]</h2>
         <h2 class="text-2xl font-semibold mt-1 text-red-500">Dreamcatcher</h2>
         <span class="text-sm mt-2 text-gray-400">KPOP</span>
-        <span class="text-sm mt-2 text-gray-400"> • 2019</span>
-        <span class="text-sm mt-2 text-gray-400"> • 12 songs</span>
+        <span class="text-sm mt-2 text-gray-400"> • 2020</span>
+        <span class="text-sm mt-2 text-gray-400"> • 6 songs</span>
         <br />
         <button>
           <img src="../../assets/heart.svg" alt="" class="w-10 h-10" />
@@ -32,42 +32,6 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
-        </tr>
-        <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
-        </tr>
-        <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
-        </tr>
-        <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
-        </tr>
-        <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
-        </tr>
-        <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
-        </tr>
         <tr>
           <td class="text-center text-gray-400">#</td>
           <td class="font-bold">title</td>
