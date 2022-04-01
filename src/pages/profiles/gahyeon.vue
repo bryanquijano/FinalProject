@@ -11,10 +11,51 @@
       <div class="w-3/4 mt-8">
         <h2 class="text-7xl font-bold">Gahyeon</h2>
         <h2 class="text-2xl font-semibold mt-1 text-red-500">Sub-Vocalist</h2>
-        <span class="text-sm mt-2 text-gray-400"
-          >information about the member</span
-        >
       </div>
+    </div>
+    <div class="text-center">
+      <h1 class="text-2xl text-purple-300 pt-4">◆About Gahyeon◆</h1>
+      <ul class="list-disc">
+        <li>Stage Name: Gahyeon (가현)</li>
+        <li>Birth Name: Lee Ga Hyeon (이가현)</li>
+        <li>Position: Lead Rapper, Sub Vocalist, Maknae</li>
+        <li>Birthday: February 3, 1999</li>
+        <li>Zodiac Sign: Aquarius</li>
+        <li>Height: 160 cm (5’3″)</li>
+        <li>Weight: 57 kg (125 lbs)</li>
+        <li>Blood Type: AB</li>
+        <li>MBTI Type: ISTP</li>
+        <li>Nightmare: Basophobia</li>
+        <li>Instagram: fox._.zzlo_</li>
+      </ul>
+      <h1 class="text-2xl text-purple-300 pt-4">◆Gahyeon Facts◆</h1>
+      <ul class="list-disc">
+        <li>She was born in Seongnam, South Korea.</li>
+        <li>She is one of the members that wasn’t a member of MINX.</li>
+        <li>She was an honor student for 3 years.</li>
+        <li>
+          Reportedly, Gahyeon studied in the Philippines for a few months.
+        </li>
+        <li>Her English name is Lucy.</li>
+        <li>She’s best in Math.</li>
+        <li>She’s a master in making seaweed soup.</li>
+        <li>She can do Sponge Bob laugh.</li>
+        <li>
+          She’s like a walking search engine as she remembers all details about
+          the group’s schedule.
+        </li>
+        <li>
+          She is friends with PRISTIN‘s Yehana, Dahyun (Twice), Miyeon (G-Idle),
+          Jane (Momoland), Chaewon (April).
+        </li>
+        <li>Nationality: Korean</li>
+        <li>Gahyeon and Handong share a room in the dorm.</li>
+        <li>She trained for six months.</li>
+        <li>
+          Gahyeon’s Ideal Type: She doesn’t have an exact ideal type, but she’d
+          prefer someone who smiles prettily, is fun, and has a good voice.
+        </li>
+      </ul>
     </div>
   </div>
 </template>
