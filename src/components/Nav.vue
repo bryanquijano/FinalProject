@@ -32,7 +32,7 @@ const loggingOut = () => {
           </router-link>
           <router-link v-if="!isAuthenticated" :to="{ name: 'Register' }">
             <li
-              class="py-2 px-6 mt-6 text-white hover:text-gray-300 hover:cursor-pointer tracking-tight font-bold bg-red-500 rounded-full hover:bg-red-800"
+              class="py-2 px-6 mt-6 text-white hover:text-gray-300 hover:cursor-pointer tracking-tight font-bold bg-blue-700 rounded-full hover:bg-blue-800"
             >
               REGISTER
             </li>
@@ -74,6 +74,13 @@ const loggingOut = () => {
                 class="py-8 px-4 hover:cursor-pointer hover:bg-gray-300 hover:text-gray-700"
               >
                 Fanclub
+              </li>
+            </router-link>
+            <router-link :to="{ name: 'Cart' }">
+              <li
+                class="py-8 px-4 hover:cursor-pointer hover:bg-gray-300 hover:text-gray-700"
+              >
+                Cart
               </li>
             </router-link>
             <button @click="loggingOut">

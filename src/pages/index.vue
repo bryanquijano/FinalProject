@@ -11,12 +11,12 @@ const { isAuthenticated, user } = useAuth();
       class="font-extralight text-2xl tracking-tighter text-white text-center"
     >
       Welcome,
-      <span v-if="isAuthenticated" class="font-bold text-purple-300"
+      <span v-if="isAuthenticated" class="font-bold text-blue-600"
         >{{ user }} </span
       >, to <span class="font-bold">InSomnia's Dream</span>. The one stop shop
       for everything related to the KPOP group:
       <span class="font-bold">Dreamcatcher</span>!
     </h2>
-    <img src="../assets/group.jpg" alt="Hello GB" class="w-full" />
+    <img src="../assets/group.jpg" alt="Hello GB" class="w-2/3" />
   </div>
 </template>

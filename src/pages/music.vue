@@ -39,7 +39,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin1.png"
+          src="../assets/albumCovers/alb3.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -52,7 +52,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin2.png"
+          src="../assets/albumCovers/alb4.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -67,7 +67,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin3.png"
+          src="../assets/albumCovers/alb5.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -80,7 +80,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin4.png"
+          src="../assets/albumCovers/alb6.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -93,7 +93,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin5.png"
+          src="../assets/albumCovers/alb7.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -106,7 +106,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin6.png"
+          src="../assets/albumCovers/alb8.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -119,7 +119,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin7.png"
+          src="../assets/albumCovers/alb9.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -132,7 +132,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin8.png"
+          src="../assets/albumCovers/alb10.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -145,7 +145,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin9.png"
+          src="../assets/albumCovers/alb11.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -160,7 +160,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin10.png"
+          src="../assets/albumCovers/alb12.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -173,7 +173,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin11.png"
+          src="../assets/albumCovers/alb13.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -186,7 +186,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin12.png"
+          src="../assets/albumCovers/alb14.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -199,7 +199,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin13.png"
+          src="../assets/albumCovers/alb15.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -212,7 +212,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin14.png"
+          src="../assets/albumCovers/alb16.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -227,7 +227,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin15.png"
+          src="../assets/albumCovers/alb17.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -242,7 +242,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin16.png"
+          src="../assets/albumCovers/alb18.png"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />
@@ -255,7 +255,7 @@
         class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
       >
         <img
-          src="../assets/albumCovers/sin17.jpg"
+          src="../assets/albumCovers/alb19.jpg"
           alt=""
           class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
         />

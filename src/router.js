@@ -12,6 +12,7 @@ import Shop from "./pages/shop.vue";
 import Login from "./pages/login.vue";
 import Register from "./pages/register.vue";
 import Fanclub from "./pages/fanclub.vue";
+import Cart from "./pages/cart.vue";
 import NotFound from "./pages/404.vue";
 
 // Album pages
@@ -138,11 +139,20 @@ const routes = [
     name: "Fanclub",
     component: Fanclub,
     beforeEnter: (to, from, next) => {
-      // If user is not authenticated, redirect them to login page
       if (!isAuthenticated.value) {
         next("/register");
       }
-      // If user is authenticated, let them access secret page
+      next();
+    },
+  },
+  {
+    path: "/cart",
+    name: "Cart",
+    component: Cart,
+    beforeEnter: (to, from, next) => {
+      if (!isAuthenticated.value) {
+        next("/register");
+      }
       next();
     },
   },
