@@ -33,43 +33,43 @@
       </thead>
       <tbody>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">1</td>
+          <td class="font-bold">Before & After</td>
+          <td class="text-right text-gray-400">918,283</td>
+          <td class="text-right text-gray-400">1:10</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">2</td>
+          <td class="font-bold">Fly High</td>
+          <td class="text-right text-gray-400">6,747,283</td>
+          <td class="text-right text-gray-400">3:31</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">3</td>
+          <td class="font-bold">Wake Up</td>
+          <td class="text-right text-gray-400">2,789,328</td>
+          <td class="text-right text-gray-400">3:32</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">4</td>
+          <td class="font-bold">Sleep-Walking</td>
+          <td class="text-right text-gray-400">3,642,482</td>
+          <td class="text-right text-gray-400">3:26</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">5</td>
+          <td class="font-bold">Monogatari</td>
+          <td class="text-right text-gray-400">1,946,822</td>
+          <td class="text-right text-gray-400">3:24</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">6</td>
+          <td class="font-bold">Fly High (Inst.)</td>
+          <td class="text-right text-gray-400">315,983</td>
+          <td class="text-right text-gray-400">3:31</td>
         </tr>
       </tbody>
     </table>
-    <p class="text-sm pt-4 text-gray-400">copyright info</p>
+    <p class="text-sm pt-4 text-gray-400">© 2017 Dreamcatcher Company</p>
   </div>
 </template>

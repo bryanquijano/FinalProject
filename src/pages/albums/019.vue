@@ -3,7 +3,7 @@
     <div class="flex container mx-auto mt-20">
       <div class="w-1/4">
         <img
-          src="../../assets/albumCovers/alb19.png"
+          src="../../assets/albumCovers/alb19.jpg"
           alt=""
           class="w-72 h-72 bg-gray-400 rounded-xl"
         />
@@ -33,43 +33,43 @@
       </thead>
       <tbody>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">1</td>
+          <td class="font-bold">Intro</td>
+          <td class="text-right text-gray-400">817,384</td>
+          <td class="text-right text-gray-400">1:15</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">2</td>
+          <td class="font-bold">BEcause</td>
+          <td class="text-right text-gray-400">15,610,349</td>
+          <td class="text-right text-gray-400">3:11</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">3</td>
+          <td class="font-bold">Airplane</td>
+          <td class="text-right text-gray-400">1,324,598</td>
+          <td class="text-right text-gray-400">3:00</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">4</td>
+          <td class="font-bold">Whistle</td>
+          <td class="text-right text-gray-400">3,380,493</td>
+          <td class="text-right text-gray-400">3:29</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">5</td>
+          <td class="font-bold">Alldaylong</td>
+          <td class="text-right text-gray-400">1,822,495</td>
+          <td class="text-right text-gray-400">3:37</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">6</td>
+          <td class="font-bold">A Heart of Sunflower</td>
+          <td class="text-right text-gray-400">1,178,349</td>
+          <td class="text-right text-gray-400">4:17</td>
         </tr>
       </tbody>
     </table>
-    <p class="text-sm pt-4 text-gray-400">copyright info</p>
+    <p class="text-sm pt-4 text-gray-400">© 2021 Dreamcatcher Company</p>
   </div>
 </template>

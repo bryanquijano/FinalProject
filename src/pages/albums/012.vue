@@ -33,25 +33,25 @@
       </thead>
       <tbody>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">1</td>
+          <td class="font-bold">Piri</td>
+          <td class="text-right text-gray-400">948,391</td>
+          <td class="text-right text-gray-400">3:28</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">2</td>
+          <td class="font-bold">Good Night</td>
+          <td class="text-right text-gray-400">939,598</td>
+          <td class="text-right text-gray-400">2:58</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">3</td>
+          <td class="font-bold">Wonderland</td>
+          <td class="text-right text-gray-400">733,190</td>
+          <td class="text-right text-gray-400">3:13</td>
         </tr>
       </tbody>
     </table>
-    <p class="text-sm pt-4 text-gray-400">copyright info</p>
+    <p class="text-sm pt-4 text-gray-400">© 2019 Dreamcatcher Company</p>
   </div>
 </template>

@@ -33,79 +33,79 @@
       </thead>
       <tbody>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">1</td>
+          <td class="font-bold">Intro</td>
+          <td class="text-right text-gray-400">459,404</td>
+          <td class="text-right text-gray-400">1:27</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">2</td>
+          <td class="font-bold">Breaking Out</td>
+          <td class="text-right text-gray-400">3,541,307</td>
+          <td class="text-right text-gray-400">3:19</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">3</td>
+          <td class="font-bold">My Way</td>
+          <td class="text-right text-gray-400">1,235,364</td>
+          <td class="text-right text-gray-400">3:24</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">4</td>
+          <td class="font-bold">Chase Me</td>
+          <td class="text-right text-gray-400">931,100</td>
+          <td class="text-right text-gray-400">3:11</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">5</td>
+          <td class="font-bold">Good Night</td>
+          <td class="text-right text-gray-400">939,548</td>
+          <td class="text-right text-gray-400">2:57</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">6</td>
+          <td class="font-bold">Wonderland</td>
+          <td class="text-right text-gray-400">733,623</td>
+          <td class="text-right text-gray-400">3:13</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">7</td>
+          <td class="font-bold">Piri</td>
+          <td class="text-right text-gray-400">948,043</td>
+          <td class="text-right text-gray-400">3:28</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">8</td>
+          <td class="font-bold">What</td>
+          <td class="text-right text-gray-400">839,501</td>
+          <td class="text-right text-gray-400">3:27</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">9</td>
+          <td class="font-bold">I Miss You</td>
+          <td class="text-right text-gray-400">2,775,367</td>
+          <td class="text-right text-gray-400">3:08</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">10</td>
+          <td class="font-bold">Mata Hitori ni Natta</td>
+          <td class="text-right text-gray-400">736,751</td>
+          <td class="text-right text-gray-400">2:54</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">11</td>
+          <td class="font-bold">You and I</td>
+          <td class="text-right text-gray-400">563,301</td>
+          <td class="text-right text-gray-400">3:16</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">12</td>
+          <td class="font-bold">Outro</td>
+          <td class="text-right text-gray-400">331,464</td>
+          <td class="text-right text-gray-400">1:44</td>
         </tr>
       </tbody>
     </table>
-    <p class="text-sm pt-4 text-gray-400">copyright info</p>
+    <p class="text-sm pt-4 text-gray-400">© 2019 PONY CANYON INC.</p>
   </div>
 </template>

@@ -33,37 +33,37 @@
       </thead>
       <tbody>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">1</td>
+          <td class="font-bold">Intro</td>
+          <td class="text-right text-gray-400">892,492</td>
+          <td class="text-right text-gray-400">1:31</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">2</td>
+          <td class="font-bold">Deja Vu</td>
+          <td class="text-right text-gray-400">25,483,906</td>
+          <td class="text-right text-gray-400">3:44</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">3</td>
+          <td class="font-bold">The curse of the spider</td>
+          <td class="text-right text-gray-400">2,967,389</td>
+          <td class="text-right text-gray-400">3:10</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">4</td>
+          <td class="font-bold">Silent Night</td>
+          <td class="text-right text-gray-400">8,284,069</td>
+          <td class="text-right text-gray-400">3:18</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">5</td>
+          <td class="font-bold">Polaris</td>
+          <td class="text-right text-gray-400">2,147,968</td>
+          <td class="text-right text-gray-400">3:53</td>
         </tr>
       </tbody>
     </table>
-    <p class="text-sm pt-4 text-gray-400">copyright info</p>
+    <p class="text-sm pt-4 text-gray-400">© 2019 Dreamcatcher Company</p>
   </div>
 </template>

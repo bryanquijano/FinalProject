@@ -33,19 +33,19 @@
       </thead>
       <tbody>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">1</td>
+          <td class="font-bold">R.o.S.E BLUE</td>
+          <td class="text-right text-gray-400">2,684,309</td>
+          <td class="text-right text-gray-400">4:00</td>
         </tr>
         <tr>
-          <td class="text-center text-gray-400">#</td>
-          <td class="font-bold">title</td>
-          <td class="text-right text-gray-400">###,###,###</td>
-          <td class="text-right text-gray-400">##:##</td>
+          <td class="text-center text-gray-400">2</td>
+          <td class="font-bold">R.o.S.E BLUE (Inst.)</td>
+          <td class="text-right text-gray-400">168,589</td>
+          <td class="text-right text-gray-400">4:00</td>
         </tr>
       </tbody>
     </table>
-    <p class="text-sm pt-4 text-gray-400">copyright info</p>
+    <p class="text-sm pt-4 text-gray-400">© 2020 Dreamcatcher Company</p>
   </div>
 </template>
