@@ -1,271 +1,58 @@
+<script setup>
+// import AlbumCard from "../components/AlbumCard.vue";
+
+import { onUnmounted, ref } from "vue";
+import albumCard from "../composable/albumCard";
+import singleCard from "../composable/singleCard";
+// import useChat from "../composable/albumCard";
+
+const { albums, unsubscribe } = albumCard();
+const { singles } = singleCard();
+
+onUnmounted(() => {
+  unsubscribe();
+});
+</script>
+
 <template>
   <div class="mt-5 font-bold text-4xl mb-4">Albums</div>
   <div class="grid grid-cols-6 gap-8">
-    <router-link :to="{ name: 'Album01' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb1.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">
-          [Dystopia: The Tree of Language]
-        </h2>
-        <h4 class="text-gray-400">2020</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album02' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb2.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">
-          The Beginning of The End
-        </h2>
-        <h4 class="text-gray-400">2019</h4>
-      </div>
-    </router-link>
+    <div v-for="album in albums" :key="album.id">
+      <router-link :to="{ name: 'Album01' }">
+        <div
+          class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
+        >
+          <img
+            src="#"
+            alt=""
+            class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
+          />
+          <h2 class="font-bold text-xl pt-2 truncate ...">
+            {{ album.title }}
+          </h2>
+          <h4 class="text-gray-400">{{ album.year }}</h4>
+        </div>
+      </router-link>
+    </div>
   </div>
   <div class="mt-10 font-bold text-4xl mb-4">Singles & EPs</div>
   <div class="grid grid-cols-6 gap-8">
-    <router-link :to="{ name: 'Album03' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb3.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Nightmare</h2>
-        <h4 class="text-gray-400">2017</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album04' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb4.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">
-          Fall Asleep in the Mirror
-        </h2>
-        <h4 class="text-gray-400">2017</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album05' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb5.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Prequel</h2>
-        <h4 class="text-gray-400">2017</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album06' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb6.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Full Moon</h2>
-        <h4 class="text-gray-400">2018</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album07' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb7.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Escape The ERA</h2>
-        <h4 class="text-gray-400">2018</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album08' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb8.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Alone In The City</h2>
-        <h4 class="text-gray-400">2018</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album09' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb9.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">What</h2>
-        <h4 class="text-gray-400">2018</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album10' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb10.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Over the Sky</h2>
-        <h4 class="text-gray-400">2019</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album11' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb11.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">
-          The End of Nightmare
-        </h2>
-        <h4 class="text-gray-400">2019</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album12' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb12.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Piri</h2>
-        <h4 class="text-gray-400">2019</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album13' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb13.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Raid of Dream</h2>
-        <h4 class="text-gray-400">2019</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album14' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb14.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Endless Night</h2>
-        <h4 class="text-gray-400">2020</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album15' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb15.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">R.o.S.E BLUE</h2>
-        <h4 class="text-gray-400">2020</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album16' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb16.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">
-          [Dystopia: Lose Myself]
-        </h2>
-        <h4 class="text-gray-400">2020</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album17' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb17.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">
-          [Dystopia: Road to Utopia]
-        </h2>
-        <h4 class="text-gray-400">2021</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album18' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb18.png"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">Eclipse</h2>
-        <h4 class="text-gray-400">2021</h4>
-      </div>
-    </router-link>
-    <router-link :to="{ name: 'Album19' }">
-      <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
-      >
-        <img
-          src="../assets/albumCovers/alb19.jpg"
-          alt=""
-          class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
-        />
-        <h2 class="font-bold text-xl pt-2 truncate ...">[Summer Holiday]</h2>
-        <h4 class="text-gray-400">2021</h4>
-      </div>
-    </router-link>
+    <div v-for="single in singles" :key="single.id">
+      <router-link :to="{ name: 'Album01' }">
+        <div
+          class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
+        >
+          <img
+            src="#"
+            alt=""
+            class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
+          />
+          <h2 class="font-bold text-xl pt-2 truncate ...">
+            {{ single.title }}
+          </h2>
+          <h4 class="text-gray-400">{{ single.year }}</h4>
+        </div>
+      </router-link>
+    </div>
   </div>
 </template>
-
-<script setup>
-import AlbumCard from "../components/AlbumCard.vue";
-</script>
