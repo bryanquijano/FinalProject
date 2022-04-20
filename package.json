@@ -10,6 +10,7 @@
   "dependencies": {
     "@vueuse/core": "^7.6.2",
     "firebase": "^9.6.7",
+    "gitart-vue-dialog": "^2.0.5",
     "vee-validate": "^4.5.8",
     "vue": "^3.2.25",
     "vue-router": "^4.0.12",

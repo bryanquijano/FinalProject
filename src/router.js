@@ -16,25 +16,28 @@ import Cart from "./pages/cart.vue";
 import NotFound from "./pages/404.vue";
 
 // Album pages
-import Album01 from "./pages/albums/001.vue";
-import Album02 from "./pages/albums/002.vue";
-import Album03 from "./pages/albums/003.vue";
-import Album04 from "./pages/albums/004.vue";
-import Album05 from "./pages/albums/005.vue";
-import Album06 from "./pages/albums/006.vue";
-import Album07 from "./pages/albums/007.vue";
-import Album08 from "./pages/albums/008.vue";
-import Album09 from "./pages/albums/009.vue";
-import Album10 from "./pages/albums/010.vue";
-import Album11 from "./pages/albums/011.vue";
-import Album12 from "./pages/albums/012.vue";
-import Album13 from "./pages/albums/013.vue";
-import Album14 from "./pages/albums/014.vue";
-import Album15 from "./pages/albums/015.vue";
-import Album16 from "./pages/albums/016.vue";
-import Album17 from "./pages/albums/017.vue";
-import Album18 from "./pages/albums/018.vue";
-import Album19 from "./pages/albums/019.vue";
+import Album01 from "./pages/albums/Album01.vue";
+import Album02 from "./pages/albums/Album02.vue";
+import Album03 from "./pages/albums/Album03.vue";
+
+// Single pages
+import Single01 from "./pages/albums/Single01.vue";
+import Single02 from "./pages/albums/Single02.vue";
+import Single03 from "./pages/albums/Single03.vue";
+import Single04 from "./pages/albums/Single04.vue";
+import Single05 from "./pages/albums/Single05.vue";
+import Single06 from "./pages/albums/Single06.vue";
+import Single07 from "./pages/albums/Single07.vue";
+import Single08 from "./pages/albums/Single08.vue";
+import Single09 from "./pages/albums/Single09.vue";
+import Single10 from "./pages/albums/Single10.vue";
+import Single11 from "./pages/albums/Single11.vue";
+import Single12 from "./pages/albums/Single12.vue";
+import Single13 from "./pages/albums/Single13.vue";
+import Single14 from "./pages/albums/Single14.vue";
+import Single15 from "./pages/albums/Single15.vue";
+import Single16 from "./pages/albums/Single16.vue";
+import Single17 from "./pages/albums/Single17.vue";
 
 // Member pages
 import Member01 from "./pages/profiles/jiu.vue";
@@ -158,7 +161,7 @@ const routes = [
   },
   // Album pages
   {
-    path: "/album/001",
+    path: "/album/Album01",
     name: "Album01",
     component: Album01,
     beforeEnter: (to, from, next) => {
@@ -169,7 +172,7 @@ const routes = [
     },
   },
   {
-    path: "/album/002",
+    path: "/album/Album02",
     name: "Album02",
     component: Album02,
     beforeEnter: (to, from, next) => {
@@ -180,7 +183,7 @@ const routes = [
     },
   },
   {
-    path: "/album/003",
+    path: "/album/Album03",
     name: "Album03",
     component: Album03,
     beforeEnter: (to, from, next) => {
@@ -190,10 +193,11 @@ const routes = [
       next();
     },
   },
+  // Single pages
   {
-    path: "/album/004",
-    name: "Album04",
-    component: Album04,
+    path: "/album/Single01",
+    name: "Single01",
+    component: Single01,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -202,9 +206,9 @@ const routes = [
     },
   },
   {
-    path: "/album/005",
-    name: "Album05",
-    component: Album05,
+    path: "/album/Single02",
+    name: "Single02",
+    component: Single02,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -213,9 +217,9 @@ const routes = [
     },
   },
   {
-    path: "/album/006",
-    name: "Album06",
-    component: Album06,
+    path: "/album/Single03",
+    name: "Single03",
+    component: Single03,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -224,9 +228,9 @@ const routes = [
     },
   },
   {
-    path: "/album/007",
-    name: "Album07",
-    component: Album07,
+    path: "/album/Single04",
+    name: "Single04",
+    component: Single04,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -235,9 +239,9 @@ const routes = [
     },
   },
   {
-    path: "/album/008",
-    name: "Album08",
-    component: Album08,
+    path: "/album/Single05",
+    name: "Single05",
+    component: Single05,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -246,9 +250,9 @@ const routes = [
     },
   },
   {
-    path: "/album/009",
-    name: "Album09",
-    component: Album09,
+    path: "/album/Single06",
+    name: "Single06",
+    component: Single06,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -257,9 +261,9 @@ const routes = [
     },
   },
   {
-    path: "/album/010",
-    name: "Album10",
-    component: Album10,
+    path: "/album/Single07",
+    name: "Single07",
+    component: Single07,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -268,9 +272,9 @@ const routes = [
     },
   },
   {
-    path: "/album/011",
-    name: "Album11",
-    component: Album11,
+    path: "/album/Single08",
+    name: "Single08",
+    component: Single08,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -279,9 +283,9 @@ const routes = [
     },
   },
   {
-    path: "/album/012",
-    name: "Album12",
-    component: Album12,
+    path: "/album/Single09",
+    name: "Single09",
+    component: Single09,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -290,9 +294,9 @@ const routes = [
     },
   },
   {
-    path: "/album/013",
-    name: "Album13",
-    component: Album13,
+    path: "/album/Single10",
+    name: "Single10",
+    component: Single10,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -301,9 +305,9 @@ const routes = [
     },
   },
   {
-    path: "/album/014",
-    name: "Album14",
-    component: Album14,
+    path: "/album/Single11",
+    name: "Single11",
+    component: Single11,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -312,9 +316,9 @@ const routes = [
     },
   },
   {
-    path: "/album/015",
-    name: "Album15",
-    component: Album15,
+    path: "/album/Single12",
+    name: "Single12",
+    component: Single12,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -323,9 +327,9 @@ const routes = [
     },
   },
   {
-    path: "/album/016",
-    name: "Album16",
-    component: Album16,
+    path: "/album/Single13",
+    name: "Single13",
+    component: Single13,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -334,9 +338,9 @@ const routes = [
     },
   },
   {
-    path: "/album/017",
-    name: "Album17",
-    component: Album17,
+    path: "/album/Single14",
+    name: "Single14",
+    component: Single14,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -345,9 +349,9 @@ const routes = [
     },
   },
   {
-    path: "/album/018",
-    name: "Album18",
-    component: Album18,
+    path: "/album/Single15",
+    name: "Single15",
+    component: Single15,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -356,9 +360,9 @@ const routes = [
     },
   },
   {
-    path: "/album/019",
-    name: "Album19",
-    component: Album19,
+    path: "/album/Single16",
+    name: "Single16",
+    component: Single16,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");
@@ -366,6 +370,18 @@ const routes = [
       next();
     },
   },
+  {
+    path: "/album/Single17",
+    name: "Single17",
+    component: Single17,
+    beforeEnter: (to, from, next) => {
+      if (!isAuthenticated.value) {
+        next("/register");
+      }
+      next();
+    },
+  },
+
   // Member pages
   {
     path: "/member/jiu",

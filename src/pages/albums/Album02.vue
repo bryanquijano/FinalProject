@@ -1,4 +1,36 @@
+<script setup>
+// // import AlbumCard from "../components/AlbumCard.vue";
+
+// import { onUnmounted, ref } from "vue";
+// import albumCard from "../composable/albumCard";
+// import singleCard from "../composable/singleCard";
+// // import useChat from "../composable/albumCard";
+
+// const { albums, unsubscribe } = albumCard();
+// const { singles } = singleCard();
+
+// onUnmounted(() => {
+//   unsubscribe();
+// });
+//
+</script>
+
 <template>
+  <!-- <div v-for="album in albums" :key="album.id">
+    <div
+      class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
+    >
+      <img
+        src="#"
+        alt=""
+        class="w-48 h-48 mx-auto bg-gray-300 shadow-2xl rounded-lg"
+      />
+      <h2 class="font-bold text-xl pt-2 truncate ...">
+        {{ album.title }}
+      </h2>
+      <h4 class="text-gray-400">{{ album.year }}</h4>
+    </div>
+  </div> -->
   <div>
     <div class="flex container mx-auto mt-20">
       <div class="w-1/4">
