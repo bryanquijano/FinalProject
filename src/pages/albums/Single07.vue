@@ -3,7 +3,7 @@
     <div class="flex container mx-auto mt-20">
       <div class="w-1/4">
         <img
-          src="../../assets/albumCovers/alb9.png"
+          src="../../assets/albumCovers/07.jpg"
           alt=""
           class="w-72 h-72 bg-gray-400 rounded-xl"
         />

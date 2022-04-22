@@ -62,9 +62,7 @@ const { ready, start } = useTimeout(3000, { controls: true });
 <template>
   <div class="h-full w-full py-8 px-4">
     <div class="flex flex-col items-center justify-center">
-      <div
-        class="bg-gray-800 shadow rounded lg:w-1/3 md:w-1/2 w-full p-10 mt-16"
-      >
+      <div class="bg-gray-800 shadow rounded w-max p-10 mt-16">
         <p
           tabindex="0"
           class="focus:outline-none text-2xl font-extrabold leading-6 text-white"

@@ -15,7 +15,7 @@
     </div>
     <div class="text-center">
       <h1 class="text-2xl text-purple-300 pt-4">◆About Yoohyeon◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>Stage Name: Dami (다미)</li>
         <li>Birth Name: Lee Yu Bin (이유빈)</li>
         <li>Position: Main Rapper, Lead Dancer, Sub Vocalist</li>
@@ -29,7 +29,7 @@
         <li>Instagram: 00ld_ami</li>
       </ul>
       <h1 class="text-2xl text-purple-300 pt-4">◆Yoohyeon Facts◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>She was born in Seoul, South Korea.</li>
         <li>Dami has a brother who has been a soldier for several years.</li>
         <li>She is a former MINX member.</li>

@@ -67,7 +67,7 @@ const { ready, start } = useTimeout(3000, { controls: true });
     <h2 class="font-extralight text-6xl tracking-tighter text-white pb-12 mt-4">
       Login to InSomnia'sDream!
     </h2>
-    <div class="bg-gray-800 shadow rounded lg:w-1/3 md:w-1/2 w-full p-10 mt-2">
+    <div class="bg-gray-800 shadow rounded w-max p-10 mt-2">
       <img class="h-64" src="../assets/group2.jpg" alt="Hello GB" />
       <form @submit.prevent="logginIn" class="flex flex-col space-y-4 pl-8 p-4">
         <button

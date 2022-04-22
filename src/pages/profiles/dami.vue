@@ -15,7 +15,7 @@
     </div>
     <div class="text-center">
       <h1 class="text-2xl text-purple-300 pt-4">◆About Dami◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>Stage Name: Yoohyeon (유현)</li>
         <li>Birth Name: Kim Yoo Hyeon (김유현)</li>
         <li>Position: Lead Vocalist</li>
@@ -29,7 +29,7 @@
         <li>Instagram: ms.yoohyeonkim</li>
       </ul>
       <h1 class="text-2xl text-purple-300 pt-4">◆Dami Facts◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>She was born in Incheon, South Korea.</li>
         <li>She has a younger brother.</li>
         <li>She studied in the Philippines when she was young.</li>

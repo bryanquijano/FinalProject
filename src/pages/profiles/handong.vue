@@ -15,7 +15,7 @@
     </div>
     <div class="text-center">
       <h1 class="text-2xl text-purple-300 pt-4">◆About Handong◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>Stage Name: Handong (한동)</li>
         <li>Birth Name: Han Dong (韓東)</li>
         <li>Position: Sub Vocalist</li>
@@ -30,7 +30,7 @@
         <li>Instagram: 0.0_handong</li>
       </ul>
       <h1 class="text-2xl text-purple-300 pt-4">◆Handong Facts◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>She was born in Wuhan, China.</li>
         <li>Yoohyeon’s nickname for Handong is Dongdong.</li>
         <li>Her English name is Della.</li>

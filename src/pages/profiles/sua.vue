@@ -15,7 +15,7 @@
     </div>
     <div class="text-center">
       <h1 class="text-2xl text-purple-300 pt-4">◆About SuA◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>Stage Name: SuA (수아)</li>
         <li>Birth Name: Kim Bo Ra (김보라)</li>
         <li>Position: Main Dancer, Sub Vocalist, Lead Rapper</li>
@@ -29,7 +29,7 @@
         <li>Instagram: sualelbora</li>
       </ul>
       <h1 class="text-2xl text-purple-300 pt-4">◆SuA Facts◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>She was born in Changwon, South Korea.</li>
         <li>She has an older brother.</li>
         <li>She is a former MINX member.</li>

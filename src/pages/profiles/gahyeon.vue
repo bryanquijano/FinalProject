@@ -15,7 +15,7 @@
     </div>
     <div class="text-center">
       <h1 class="text-2xl text-purple-300 pt-4">◆About Gahyeon◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>Stage Name: Gahyeon (가현)</li>
         <li>Birth Name: Lee Ga Hyeon (이가현)</li>
         <li>Position: Lead Rapper, Sub Vocalist, Maknae</li>
@@ -29,7 +29,7 @@
         <li>Instagram: fox._.zzlo_</li>
       </ul>
       <h1 class="text-2xl text-purple-300 pt-4">◆Gahyeon Facts◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>She was born in Seongnam, South Korea.</li>
         <li>She is one of the members that wasn’t a member of MINX.</li>
         <li>She was an honor student for 3 years.</li>

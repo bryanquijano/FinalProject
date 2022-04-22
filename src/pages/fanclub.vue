@@ -27,14 +27,14 @@
         ipsum maxime cumque iste ullam.
       </p>
       <h1 class="text-2xl text-purple-300 pt-4">◆How to join◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
       </ul>
       <h1 class="text-2xl text-purple-300 pt-4">◆Membership benefits◆</h1>
-      <ul class="list-disc">
+      <ul class="list-none">
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
