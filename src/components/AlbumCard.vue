@@ -24,8 +24,8 @@ onUnmounted(() => {
           {{ album.title }}
         </h2>
         <h4 class="text-gray-400">{{ album.year }}</h4>
-        <!-- <li v-for="album in albums" :key="album.test">
-          <h4 class="text-gray-400">{{ album.test }}</h4>
+        <!-- <li v-for="(album, index) in albums" :key="index">
+          <h4 class="text-gray-400">{{ index }}</h4>
         </li> -->
       </div>
     </router-link>

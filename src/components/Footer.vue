@@ -1,5 +1,8 @@
 <template>
-  <div class="w-full px-5 bg-gray-800 py-2">
-    <p class="text-white text-xs text-center">© Bryan Quijano, CITP-4316</p>
+  <div
+    class="w-full px-5 bg-slate-gray py-2 flex justify-between border-t-4 border-slate-gray-lighter"
+  >
+    <span class="text-white text-xs">© Bryan Quijano</span>
+    <span class="text-white text-xs">CITP-4316</span>
   </div>
 </template>

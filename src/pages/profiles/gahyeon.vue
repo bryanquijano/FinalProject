@@ -1,21 +1,25 @@
 <template>
-  <div>
-    <div class="flex container mx-auto mt-20">
-      <div class="w-1/4">
+  <div class="flex">
+    <div class="mx-auto mt-20">
+      <div class="w-72 mr-12">
         <img
           src="../../assets/memberProfiles/mem7.jpg"
           alt=""
           class="w-72 h-72 bg-gray-400 rounded-full"
         />
       </div>
-      <div class="w-3/4 mt-8">
+      <div class="w-72 mt-4 text-center">
         <h2 class="text-7xl font-bold">Gahyeon</h2>
-        <h2 class="text-2xl font-semibold mt-1 text-red-500">Sub-Vocalist</h2>
+        <h2 class="text-2xl font-semibold mt-1 text-purple-300">
+          Sub-Vocalist
+        </h2>
       </div>
     </div>
-    <div class="text-center">
-      <h1 class="text-2xl text-purple-300 pt-4">◆About Gahyeon◆</h1>
-      <ul class="list-none">
+    <div class="">
+      <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
+        ◆About Gahyeon◆
+      </h1>
+      <ul class="list-disc leading-8">
         <li>Stage Name: Gahyeon (가현)</li>
         <li>Birth Name: Lee Ga Hyeon (이가현)</li>
         <li>Position: Lead Rapper, Sub Vocalist, Maknae</li>
@@ -28,8 +32,10 @@
         <li>Nightmare: Basophobia</li>
         <li>Instagram: fox._.zzlo_</li>
       </ul>
-      <h1 class="text-2xl text-purple-300 pt-4">◆Gahyeon Facts◆</h1>
-      <ul class="list-none">
+      <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
+        ◆Gahyeon Facts◆
+      </h1>
+      <ul class="list-disc leading-8">
         <li>She was born in Seongnam, South Korea.</li>
         <li>She is one of the members that wasn’t a member of MINX.</li>
         <li>She was an honor student for 3 years.</li>
@@ -57,5 +63,17 @@
         </li>
       </ul>
     </div>
+  </div>
+  <p class="text-center mt-12 mb-4">Want to learn more about Gahyeon?</p>
+  <div class="flex justify-center">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/sQ9Ygm9HhyA"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
 </template>

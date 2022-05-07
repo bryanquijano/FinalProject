@@ -1,21 +1,25 @@
 <template>
-  <div>
-    <div class="flex container mx-auto mt-20">
-      <div class="w-1/4">
+  <div class="flex">
+    <div class="mx-auto mt-20">
+      <div class="w-72 mr-12">
         <img
           src="../../assets/memberProfiles/mem4.jpg"
           alt=""
           class="w-72 h-72 bg-gray-400 rounded-full"
         />
       </div>
-      <div class="w-3/4 mt-8">
+      <div class="w-72 mt-4 text-center">
         <h2 class="text-7xl font-bold">Handong</h2>
-        <h2 class="text-2xl font-semibold mt-1 text-red-500">Sub-Vocalist</h2>
+        <h2 class="text-2xl font-semibold mt-1 text-purple-300">
+          Sub-Vocalist
+        </h2>
       </div>
     </div>
-    <div class="text-center">
-      <h1 class="text-2xl text-purple-300 pt-4">◆About Handong◆</h1>
-      <ul class="list-none">
+    <div class="">
+      <h1 class="text-3xl text-purple-300 pt-16 text-center pb-4">
+        ◆About Handong◆
+      </h1>
+      <ul class="list-disc leading-8">
         <li>Stage Name: Handong (한동)</li>
         <li>Birth Name: Han Dong (韓東)</li>
         <li>Position: Sub Vocalist</li>
@@ -29,8 +33,10 @@
         <li>Weibo: 韩东_捕梦网</li>
         <li>Instagram: 0.0_handong</li>
       </ul>
-      <h1 class="text-2xl text-purple-300 pt-4">◆Handong Facts◆</h1>
-      <ul class="list-none">
+      <h1 class="text-3xl text-purple-300 pt-16 text-center pb-4">
+        ◆Handong Facts◆
+      </h1>
+      <ul class="list-disc leading-8">
         <li>She was born in Wuhan, China.</li>
         <li>Yoohyeon’s nickname for Handong is Dongdong.</li>
         <li>Her English name is Della.</li>
@@ -64,5 +70,17 @@
         </li>
       </ul>
     </div>
+  </div>
+  <p class="text-center mt-12 mb-4">Want to learn more about Handong?</p>
+  <div class="flex justify-center">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/I2VSN42beH0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
 </template>

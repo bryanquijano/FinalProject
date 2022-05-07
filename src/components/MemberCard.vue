@@ -14,7 +14,7 @@ onUnmounted(() => {
   <div v-for="member in members" :key="member.id">
     <router-link :to="{ name: `${member.ID}` }">
       <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
+        class="bg-slate-gray w-56 h-76 transition ease-in-out duration-500 p-4 rounded-md pb-6 hover:text-purple-300"
       >
         <img
           :src="`${member.pfp}`"

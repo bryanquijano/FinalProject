@@ -1,75 +1,82 @@
 <template>
-  <div>
-    <div class="flex container mx-auto mt-20">
-      <div class="w-1/4">
+  <div class="flex">
+    <div class="mx-auto mt-20">
+      <div class="w-72 mr-12">
         <img
           src="../../assets/memberProfiles/mem6.jpg"
           alt=""
           class="w-72 h-72 bg-gray-400 rounded-full"
         />
       </div>
-      <div class="w-3/4 mt-8">
+      <div class="w-72 mt-4 text-center">
         <h2 class="text-7xl font-bold">Dami</h2>
-        <h2 class="text-2xl font-semibold mt-1 text-red-500">Rapper</h2>
+        <h2 class="text-2xl font-semibold mt-1 text-purple-300">Rapper</h2>
       </div>
     </div>
-    <div class="text-center">
-      <h1 class="text-2xl text-purple-300 pt-4">◆About Dami◆</h1>
-      <ul class="list-none">
-        <li>Stage Name: Yoohyeon (유현)</li>
-        <li>Birth Name: Kim Yoo Hyeon (김유현)</li>
-        <li>Position: Lead Vocalist</li>
-        <li>Birthday: January 7, 1997</li>
-        <li>Zodiac Sign: Capricorn</li>
-        <li>Height: 168 cm (5’6”)</li>
-        <li>Weight: 49 kg (108 lbs)</li>
-        <li>Blood Type: O</li>
-        <li>MBTI Type: ENFJ</li>
-        <li>Nightmare: Mazeophobia</li>
-        <li>Instagram: ms.yoohyeonkim</li>
+    <div class="">
+      <h1 class="text-3xl text-purple-300 pt-16 text-center pb-4">
+        ◆About Dami◆
+      </h1>
+      <ul class="list-disc leading-8">
+        <li>Stage Name: Dami (다미)</li>
+        <li>Birth Name: Lee Yu Bin (이유빈)</li>
+        <li>Position: Main Rapper, Lead Dancer, Sub Vocalist</li>
+        <li>Birthday: March 7, 1997</li>
+        <li>Zodiac Sign: Pisces</li>
+        <li>Height: 163 cm (5’4″)</li>
+        <li>Weight: 44 kg (97 lbs)</li>
+        <li>Blood Type: A</li>
+        <li>MBTI Type: INFJ</li>
+        <li>Nightmare: Oulinophobia or Agliophobia</li>
+        <li>Instagram: 00ld_ami</li>
       </ul>
-      <h1 class="text-2xl text-purple-300 pt-4">◆Dami Facts◆</h1>
-      <ul class="list-none">
-        <li>She was born in Incheon, South Korea.</li>
-        <li>She has a younger brother.</li>
-        <li>She studied in the Philippines when she was young.</li>
+      <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
+        ◆Dami Facts◆
+      </h1>
+      <ul class="list-disc leading-8">
+        <li>She was born in Seoul, South Korea.</li>
+        <li>Dami has a brother who has been a soldier for several years.</li>
         <li>She is a former MINX member.</li>
-        <li>Her English name is Rachel.</li>
-        <li>Her teeth get itchy when she’s nervous.</li>
-        <li>She is learning Mandarin and German.</li>
-        <li>She likes Harry Styles.</li>
-        <li>Yoohyeon can play the guitar.</li>
-        <li>Yoohyeon loves to play video games.</li>
-        <li>She is good at game characters’ voice impressions.</li>
-        <li>Yoohyeon likes to watch The Simpsons before going to sleep.</li>
-        <li>The group members agree Yoohyeon is the most forgetful member.</li>
+        <li>Her English name is Emma.</li>
+        <li>She learned Kendo.</li>
+        <li>She wishes she could raise a pet bear.</li>
+        <li>Dami likes animals and thought about becoming a breeder.</li>
+        <li>She can do chick chirping sounds.</li>
+        <li>She is a fan of the manga/anime “One Piece“.</li>
+        <li>She likes books, and always seeing reading anywhere if she can.</li>
+        <li>Her favorite author Murakami Haruki.</li>
         <li>
-          Yoohyeon has nearsightedness and astigmatism. (According to herself on
-          Daum fancafe)
-        </li>
-        <li>
-          Yoohyeon is a big fan of Sunmi and she once gave Sunmi a fan letter.
+          She is in a ’97 liner group with Oh My Girl‘s Binnie, Gfriend‘s Yuju,
+          Momoland‘s Jane, former HINAPIA‘s Minkyeung and Gyeongwon, and DIA /
+          Uni.T‘s Yebin. (BNT interview)
         </li>
         <li>Nationality: Korean</li>
         <li>
-          Yoohyeon was a participant on the YG show MIXNINE, but she left the
-          show early, due to schedule.
+          Dami was a participant in the YG show MIXNINE, but she left the show
+          early, due to schedule.
         </li>
         <li>
-          Yoohyeon was in the “Falling in Love” MV of HNB‘s Hyunsoo and
-          Jinyoung.
+          Dami, JiU, and Siyeon used to share a room in the dorm. Update: Dami
+          moved out into the old manager’s room.
         </li>
-        <li>
-          Yoohyeon made a debut as a runway model. (DREAMCATCHER’s Note November
-          16, 2018)
-        </li>
-        <li>Yoohyeon and SuA share a room in the dorm.</li>
         <li>She trained for 1 and a half years.</li>
         <li>
-          Yoohyeon’s Ideal Type: Yoohyeon said she likes “hard-working people”.
-          As for celebrities, she named her ideal type Kim Bum.
+          Dami’s Ideal Type: Someone she can learn from, someone who can talk a
+          lot compared to her.
         </li>
       </ul>
     </div>
+  </div>
+  <p class="text-center mt-12 mb-4">Want to learn more about Dami?</p>
+  <div class="flex justify-center">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/xrs5Zkb3d2g"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
 </template>

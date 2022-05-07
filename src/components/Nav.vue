@@ -14,25 +14,23 @@ const loggingOut = () => {
 </script>
 
 <template>
-  <div class="bg-gray-800 text-white border-b-4 border-gray-600">
+  <div class="bg-slate-gray text-white border-b-4 border-slate-gray-lighter">
     <div class="container mx-auto flex justify-between items-center">
       <router-link to="/">
-        <h1 class="text-3xl font-thin tracking-tighter">
-          InSomnia's<span class="font-normal"> Dream</span>
-        </h1>
+        <img src="../assets/logo.svg" alt="" class="pr-4 w-64" />
       </router-link>
       <nav>
-        <ul class="flex space-x-4">
+        <ul class="md:flex md:items-center md:space-x-4">
           <router-link v-if="!isAuthenticated" :to="{ name: 'Login' }">
             <li
-              class="py-8 px-4 hover:cursor-pointer text-white hover:text-gray-300 tracking-tight font-bold"
+              class="py-8 px-4 hover:cursor-pointer text-white hover:text-slate-gray-light tracking-tight font-bold"
             >
               LOG IN
             </li>
           </router-link>
           <router-link v-if="!isAuthenticated" :to="{ name: 'Register' }">
             <li
-              class="py-2 px-6 mt-6 text-white hover:text-gray-300 hover:cursor-pointer tracking-tight font-bold bg-blue-700 rounded-full hover:bg-blue-800"
+              class="py-2 px-6 mt-6 text-white hover:text-slate-gray-light hover:cursor-pointer tracking-tight font-bold bg-blue-700 rounded-full hover:bg-blue-800"
             >
               REGISTER
             </li>
@@ -41,7 +39,7 @@ const loggingOut = () => {
           <div v-else class="flex">
             <router-link to="/">
               <li
-                class="py-8 px-4 hover:cursor-pointer text-white hover:text-gray-700 hover:bg-gray-300"
+                class="py-8 px-4 hover:cursor-pointer hover:underline hover:decoration-solid hover:decoration-white hover:underline-offset-8 hover:decoration-2 hover:text-white"
               >
                 Home
               </li>
@@ -49,21 +47,21 @@ const loggingOut = () => {
             <!-- Dynamic method -->
             <router-link :to="{ name: 'Members' }">
               <li
-                class="py-8 px-4 hover:cursor-pointer text-white hover:text-gray-700 hover:bg-gray-300"
+                class="py-8 px-4 hover:cursor-pointer hover:underline hover:decoration-solid hover:decoration-white hover:underline-offset-8 hover:decoration-2 hover:text-white"
               >
                 Members
               </li>
             </router-link>
             <router-link :to="{ name: 'Music' }">
               <li
-                class="py-8 px-4 hover:cursor-pointer text-white hover:text-gray-700 hover:bg-gray-300"
+                class="py-8 px-4 hover:cursor-pointer hover:underline hover:decoration-solid hover:decoration-white hover:underline-offset-8 hover:decoration-2 hover:text-white"
               >
                 Music
               </li>
             </router-link>
             <router-link :to="{ name: 'Shop' }">
               <li
-                class="py-8 px-4 hover:cursor-pointer text-white hover:text-gray-700 hover:bg-gray-300"
+                class="py-8 px-4 hover:cursor-pointer hover:underline hover:decoration-solid hover:decoration-white hover:underline-offset-8 hover:decoration-2 hover:text-white"
               >
                 Shop
               </li>
@@ -71,22 +69,20 @@ const loggingOut = () => {
 
             <router-link :to="{ name: 'Fanclub' }">
               <li
-                class="py-8 px-4 hover:cursor-pointer hover:bg-gray-300 hover:text-gray-700"
+                class="py-8 px-4 hover:cursor-pointer hover:underline hover:decoration-solid hover:decoration-white hover:underline-offset-8 hover:decoration-2 hover:text-white"
               >
                 Fanclub
               </li>
             </router-link>
-            <router-link :to="{ name: 'Cart' }">
+            <!-- <router-link :to="{ name: 'Cart' }">
               <li
-                class="py-8 px-4 hover:cursor-pointer hover:bg-gray-300 hover:text-gray-700"
+                class="py-8 px-4 hover:cursor-pointer hover:underline hover:decoration-solid hover:decoration-white hover:underline-offset-8 hover:decoration-2 hover:text-white"
               >
                 Cart
               </li>
-            </router-link>
+            </router-link> -->
             <button @click="loggingOut">
-              <li
-                class="py-8 px-4 hover:cursor-pointer hover:bg-gray-300 hover:text-gray-700"
-              >
+              <li class="py-8 px-4 hover:cursor-pointer hover:bg-red-500">
                 Logout
               </li>
             </button>
