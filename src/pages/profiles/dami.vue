@@ -17,7 +17,7 @@
       <h1 class="text-3xl text-purple-300 pt-16 text-center pb-4">
         ◆About Dami◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>Stage Name: Dami (다미)</li>
         <li>Birth Name: Lee Yu Bin (이유빈)</li>
         <li>Position: Main Rapper, Lead Dancer, Sub Vocalist</li>
@@ -33,7 +33,7 @@
       <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
         ◆Dami Facts◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>She was born in Seoul, South Korea.</li>
         <li>Dami has a brother who has been a soldier for several years.</li>
         <li>She is a former MINX member.</li>

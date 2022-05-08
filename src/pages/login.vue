@@ -64,17 +64,17 @@ const { ready, start } = useTimeout(3000, { controls: true });
   <div
     class="flex flex-col justify-center items-center min-h-screen-nonav bg-inherit"
   >
-    <h2 class="font-extralight text-6xl tracking-tighter text-white pb-12 mt-4">
-      Login to InSomnia'sDream!
+    <h2 class="font-extralight text-3xl tracking-tighter text-white pb-4 mt-12">
+      Login to InSomniasDream
     </h2>
-    <div class="bg-gray-800 shadow rounded w-max p-10 mt-2">
-      <img class="h-64" src="../assets/group2.jpg" alt="Hello GB" />
+    <div class="bg-white shadow rounded w-max p-10 mt-2">
+      <img class="h-64" src="../assets/login-group.jpg" alt="Hello GB" />
       <form @submit.prevent="logginIn" class="flex flex-col space-y-4 pl-8 p-4">
         <button
           @click="google"
           aria-label="Continue with google"
           role="button"
-          class="focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 border rounded-lg border-gray-200 flex items-center w-full mt-10 bg-white hover:opacity-75"
+          class="focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 rounded-full border-slate-gray border-2 flex items-center w-full mt-10 bg-white hover:opacity-75"
         >
           <svg
             width="19"
@@ -112,12 +112,12 @@ const { ready, start } = useTimeout(3000, { controls: true });
           <p class="pt-3 text-white">Sign in with Google</p>
         </button> -->
         <div>
-          <p class="text-center text-xs m-0 p-0">
-            ------------------ OR ------------------
+          <p class="text-center text-xs m-0 p-0 text-black">
+            ------------------------------ OR ------------------------------
           </p>
         </div>
         <div>
-          <label class="text-sm font-medium leading-none text-white">
+          <label class="text-sm font-bold leading-none text-black">
             Email
           </label>
           <input
@@ -125,12 +125,12 @@ const { ready, start } = useTimeout(3000, { controls: true });
             type="text"
             placeholder="Username"
             v-model="username"
-            class="bg-gray-200 border rounded text-xs font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2"
+            class="bg-white border-2 border-slate-gray rounded-full text-sm font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2"
           />
         </div>
         <span class="text-red-500 text-center text-xs">{{ emailError }}</span>
         <div>
-          <label class="text-sm font-medium leading-none text-white">
+          <label class="text-sm font-bold leading-none text-black">
             Password
           </label>
           <input
@@ -138,16 +138,9 @@ const { ready, start } = useTimeout(3000, { controls: true });
             type="text"
             placeholder="Password"
             v-model="password"
-            class="bg-gray-200 border rounded text-xs font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2"
+            class="bg-white border-2 border-slate-gray rounded-full text-sm font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2"
           />
         </div>
-        <!-- <input
-          name="password"
-          type="password"
-          class="border-2 p-2 rounded-lg border-gray-500"
-          placeholder="Password"
-          v-model="password"
-        /> -->
         <span class="text-red-500 text-center text-xs">{{
           passwordError
         }}</span>
@@ -156,16 +149,10 @@ const { ready, start } = useTimeout(3000, { controls: true });
           <button
             type="submit"
             @submit.prevent="logginIn"
-            class="focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 leading-none text-white focus:outline-none bg-blue-700 rounded-full hover:bg-blue-600 py-4 w-full font-bold"
+            class="focus:ring-2 focus:ring-offset-2 focus:ring-slate-gray-light leading-none text-white focus:outline-none bg-black rounded-full hover:bg-slate-gray py-4 w-full font-bold"
           >
             Login
           </button>
-          <!-- <button
-            @click="signingUp"
-            class="border-2 border-gray-500 text-blue-800 py-4 rounded-lg w-1/2 hover:bg-gray-400 hover:text-white hover:border-gray-900"
-          >
-            Sign Up
-          </button> -->
         </div>
         <p
           tabindex="0"
@@ -174,7 +161,7 @@ const { ready, start } = useTimeout(3000, { controls: true });
           Don't have an account?
           <router-link v-if="!isAuthenticated" :to="{ name: 'Register' }">
             <span
-              class="text-sm mt-4 font-medium leading-none text-white hover:text-gray-300"
+              class="text-sm mt-4 font-medium leading-none text-black hover:text-gray-600"
             >
               Register here
             </span>

@@ -19,7 +19,7 @@
       <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
         ◆About Yoohyeon◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>Stage Name: Yoohyeon (유현)</li>
         <li>Birth Name: Kim Yoo Hyeon (김유현)</li>
         <li>Position: Lead Vocalist</li>
@@ -35,7 +35,7 @@
       <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
         ◆Yoohyeon Facts◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>She was born in Incheon, South Korea.</li>
         <li>She has a younger brother.</li>
         <li>She studied in the Philippines when she was young.</li>

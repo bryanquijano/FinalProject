@@ -17,7 +17,7 @@
       <h1 class="text-3xl text-purple-300 pt-16 text-center pb-4">
         ◆About JiU◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>Stage Name: JiU (지유)</li>
         <li>Birth Name: Kim Min Ji (김민지)</li>
         <li>Position: Leader, Lead Vocalist, Lead Dancer, Visual</li>
@@ -33,7 +33,7 @@
       <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
         ◆JiU Facts◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>Stage Name: JiU (지유)</li>
         <li>She was born in Daejeon, South Korea.</li>
         <li>She has a younger brother.</li>

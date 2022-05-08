@@ -22,7 +22,7 @@
       <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
         ◆About Siyeon◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>Stage Name: Siyeon (시연)</li>
         <li>Birth Name: Lee Si Yeon (이시연)</li>
         <li>Position: Main Vocalist</li>
@@ -38,7 +38,7 @@
       <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
         ◆Siyeon Facts◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>She was born in Daegu, South Korea.</li>
         <li>She has an older sister.</li>
         <li>She is a former MINX member.</li>

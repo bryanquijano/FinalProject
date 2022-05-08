@@ -23,14 +23,14 @@ const loggingOut = () => {
         <ul class="md:flex md:items-center md:space-x-4">
           <router-link v-if="!isAuthenticated" :to="{ name: 'Login' }">
             <li
-              class="py-8 px-4 hover:cursor-pointer text-white hover:text-slate-gray-light tracking-tight font-bold"
+              class="py-8 px-4 hover:cursor-pointer hover:underline hover:decoration-solid hover:decoration-white hover:underline-offset-8 hover:decoration-2 hover:text-white"
             >
               LOG IN
             </li>
           </router-link>
           <router-link v-if="!isAuthenticated" :to="{ name: 'Register' }">
             <li
-              class="py-2 px-6 mt-6 text-white hover:text-slate-gray-light hover:cursor-pointer tracking-tight font-bold bg-blue-700 rounded-full hover:bg-blue-800"
+              class="py-2 px-6 text-black hover:cursor-pointer tracking-tight font-bold bg-white rounded-full hover:bg-gray-300 hover:text-black"
             >
               REGISTER
             </li>

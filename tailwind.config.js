@@ -11,6 +11,9 @@ module.exports = {
         "slate-gray-light": "#181818",
         "slate-gray-lighter": "#303030",
       },
+      animation: {
+        wiggle: "wiggle 1s ease-in-out infinite",
+      },
     },
   },
   plugins: [],

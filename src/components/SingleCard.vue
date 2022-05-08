@@ -13,7 +13,7 @@ onUnmounted(() => {
   <div v-for="single in singles" :key="single.id">
     <router-link :to="{ name: `${single.ID}` }">
       <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
+        class="bg-slate-gray w-56 h-76 transition ease-in-out duration-500 p-4 rounded-md pb-6 hover:bg-white hover:text-black"
       >
         <img
           :src="`${single.cover}`"

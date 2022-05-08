@@ -19,7 +19,7 @@
       <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
         ◆About Gahyeon◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>Stage Name: Gahyeon (가현)</li>
         <li>Birth Name: Lee Ga Hyeon (이가현)</li>
         <li>Position: Lead Rapper, Sub Vocalist, Maknae</li>
@@ -35,7 +35,7 @@
       <h1 class="text-3xl text-purple-300 pt-8 text-center pb-4">
         ◆Gahyeon Facts◆
       </h1>
-      <ul class="list-disc leading-8">
+      <ul class="list-disc leading-8 text-lg">
         <li>She was born in Seongnam, South Korea.</li>
         <li>She is one of the members that wasn’t a member of MINX.</li>
         <li>She was an honor student for 3 years.</li>

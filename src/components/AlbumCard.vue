@@ -13,7 +13,7 @@ onUnmounted(() => {
   <div v-for="album in albums" :key="album.id">
     <router-link :to="{ name: `${album.ID}` }">
       <div
-        class="bg-gray-800 w-56 h-76 hover:opacity-80 transition ease-in-out duration-500 p-4 rounded-md pb-6"
+        class="bg-slate-gray w-56 h-76 transition ease-in-out duration-500 p-4 rounded-md pb-6 hover:bg-white hover:text-black"
       >
         <img
           :src="`${album.cover}`"
@@ -24,9 +24,6 @@ onUnmounted(() => {
           {{ album.title }}
         </h2>
         <h4 class="text-gray-400">{{ album.year }}</h4>
-        <!-- <li v-for="(album, index) in albums" :key="index">
-          <h4 class="text-gray-400">{{ index }}</h4>
-        </li> -->
       </div>
     </router-link>
   </div>
