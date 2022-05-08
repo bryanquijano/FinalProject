@@ -5,6 +5,6 @@
     <h2 class="font-extralight text-6xl tracking-tighter text-white">
       About Page
     </h2>
-    <img src="../assets/bgabout.png" alt="Hello GB" class="w-1/2" />
+    <img src="../assets/group.jpg" alt="Hello GB" class="w-1/2" />
   </div>
 </template>
