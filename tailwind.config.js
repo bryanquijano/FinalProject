@@ -10,9 +10,13 @@ module.exports = {
         "slate-gray": "#121212",
         "slate-gray-light": "#181818",
         "slate-gray-lighter": "#303030",
+        "slate-gray-lightest": "#464646",
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
+      },
+      spacing: {
+        1200: "1200px",
       },
     },
   },

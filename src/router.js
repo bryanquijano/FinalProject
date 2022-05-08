@@ -12,6 +12,7 @@ import Shop from "./pages/shop.vue";
 import Login from "./pages/login.vue";
 import Register from "./pages/register.vue";
 import Fanclub from "./pages/fanclub.vue";
+import Videos from "./pages/videos.vue";
 import Cart from "./pages/cart.vue";
 import NotFound from "./pages/404.vue";
 
@@ -141,6 +142,17 @@ const routes = [
     path: "/fanclub",
     name: "Fanclub",
     component: Fanclub,
+    beforeEnter: (to, from, next) => {
+      if (!isAuthenticated.value) {
+        next("/register");
+      }
+      next();
+    },
+  },
+  {
+    path: "/videos",
+    name: "Videos",
+    component: Videos,
     beforeEnter: (to, from, next) => {
       if (!isAuthenticated.value) {
         next("/register");

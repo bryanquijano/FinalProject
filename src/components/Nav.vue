@@ -67,11 +67,11 @@ const loggingOut = () => {
               </li>
             </router-link>
 
-            <router-link :to="{ name: 'Fanclub' }">
+            <router-link :to="{ name: 'Videos' }">
               <li
                 class="py-8 px-4 hover:cursor-pointer hover:underline hover:decoration-solid hover:decoration-white hover:underline-offset-8 hover:decoration-2 hover:text-white"
               >
-                Fanclub
+                Videos
               </li>
             </router-link>
             <!-- <router-link :to="{ name: 'Cart' }">
